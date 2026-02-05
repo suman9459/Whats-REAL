@@ -7,26 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E87591FD68A181507129B118 /* Pods_Whats_REAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28DE4BADBCAE97BFE70DB46 /* Pods_Whats_REAL.framework */; };
+		EF1B11B52F35071C0037AC66 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = EF1B11B42F35071C0037AC66 /* FirebaseAuth */; };
+		EF1B11B72F35071C0037AC66 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = EF1B11B62F35071C0037AC66 /* FirebaseCore */; };
+		EF1B11B92F35071C0037AC66 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = EF1B11B82F35071C0037AC66 /* FirebaseDatabase */; };
 		EF917E4F2C35B3E900494D65 /* Whats_REALApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF917E4E2C35B3E900494D65 /* Whats_REALApp.swift */; };
 		EF917E512C35B3E900494D65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF917E502C35B3E900494D65 /* ContentView.swift */; };
 		EF917E532C35B3EB00494D65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF917E522C35B3EB00494D65 /* Assets.xcassets */; };
 		EF917E562C35B3EB00494D65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF917E552C35B3EB00494D65 /* Preview Assets.xcassets */; };
-		EF917E5D2C35B44500494D65 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF917E5C2C35B44400494D65 /* GoogleService-Info.plist */; };
 		EF917E5F2C35B91200494D65 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF917E5E2C35B91200494D65 /* SignUpView.swift */; };
+		EFC099402F0C591A00D59CBE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EFC0993F2F0C591A00D59CBE /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1106CA60BC9B047C63E8AE59 /* Pods-Whats REAL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Whats REAL.release.xcconfig"; path = "Target Support Files/Pods-Whats REAL/Pods-Whats REAL.release.xcconfig"; sourceTree = "<group>"; };
-		4A1A3A2C51C4B88BBC77EA11 /* Pods-Whats REAL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Whats REAL.debug.xcconfig"; path = "Target Support Files/Pods-Whats REAL/Pods-Whats REAL.debug.xcconfig"; sourceTree = "<group>"; };
 		EF917E4B2C35B3E900494D65 /* Whats REAL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Whats REAL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF917E4E2C35B3E900494D65 /* Whats_REALApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whats_REALApp.swift; sourceTree = "<group>"; };
 		EF917E502C35B3E900494D65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EF917E522C35B3EB00494D65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF917E552C35B3EB00494D65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		EF917E5C2C35B44400494D65 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EF917E5E2C35B91200494D65 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
-		F28DE4BADBCAE97BFE70DB46 /* Pods_Whats_REAL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Whats_REAL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFC0993F2F0C591A00D59CBE /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,37 +33,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E87591FD68A181507129B118 /* Pods_Whats_REAL.framework in Frameworks */,
+				EF1B11B92F35071C0037AC66 /* FirebaseDatabase in Frameworks */,
+				EF1B11B72F35071C0037AC66 /* FirebaseCore in Frameworks */,
+				EF1B11B52F35071C0037AC66 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5DEF01A10A673E7377FEC243 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4A1A3A2C51C4B88BBC77EA11 /* Pods-Whats REAL.debug.xcconfig */,
-				1106CA60BC9B047C63E8AE59 /* Pods-Whats REAL.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		DDE5EEF15A381C8F04D1160D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F28DE4BADBCAE97BFE70DB46 /* Pods_Whats_REAL.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		EF917E422C35B3E900494D65 = {
 			isa = PBXGroup;
 			children = (
+				EFC0993F2F0C591A00D59CBE /* GoogleService-Info.plist */,
 				EF917E4D2C35B3E900494D65 /* Whats REAL */,
 				EF917E4C2C35B3E900494D65 /* Products */,
-				5DEF01A10A673E7377FEC243 /* Pods */,
-				DDE5EEF15A381C8F04D1160D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,7 +65,6 @@
 				EF917E4E2C35B3E900494D65 /* Whats_REALApp.swift */,
 				EF917E502C35B3E900494D65 /* ContentView.swift */,
 				EF917E5E2C35B91200494D65 /* SignUpView.swift */,
-				EF917E5C2C35B44400494D65 /* GoogleService-Info.plist */,
 				EF917E522C35B3EB00494D65 /* Assets.xcassets */,
 				EF917E542C35B3EB00494D65 /* Preview Content */,
 			);
@@ -104,11 +86,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF917E592C35B3EB00494D65 /* Build configuration list for PBXNativeTarget "Whats REAL" */;
 			buildPhases = (
-				F4B2B34D56AB95751942B0B8 /* [CP] Check Pods Manifest.lock */,
 				EF917E472C35B3E900494D65 /* Sources */,
 				EF917E482C35B3E900494D65 /* Frameworks */,
 				EF917E492C35B3E900494D65 /* Resources */,
-				25254240042CC653E984AD51 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,7 +107,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 2630;
 				TargetAttributes = {
 					EF917E4A2C35B3E900494D65 = {
 						CreatedOnToolsVersion = 15.4;
@@ -143,6 +123,9 @@
 				Base,
 			);
 			mainGroup = EF917E422C35B3E900494D65;
+			packageReferences = (
+				EF1B11B32F35071C0037AC66 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = EF917E4C2C35B3E900494D65 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -159,53 +142,11 @@
 			files = (
 				EF917E562C35B3EB00494D65 /* Preview Assets.xcassets in Resources */,
 				EF917E532C35B3EB00494D65 /* Assets.xcassets in Resources */,
-				EF917E5D2C35B44500494D65 /* GoogleService-Info.plist in Resources */,
+				EFC099402F0C591A00D59CBE /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		25254240042CC653E984AD51 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Whats REAL/Pods-Whats REAL-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Whats REAL/Pods-Whats REAL-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Whats REAL/Pods-Whats REAL-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F4B2B34D56AB95751942B0B8 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Whats REAL-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EF917E472C35B3E900494D65 /* Sources */ = {
@@ -256,6 +197,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = GTL2PGX2TX;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -279,6 +221,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -319,6 +262,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = GTL2PGX2TX;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -335,6 +279,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -342,14 +287,12 @@
 		};
 		EF917E5A2C35B3EB00494D65 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A1A3A2C51C4B88BBC77EA11 /* Pods-Whats REAL.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Whats REAL/Preview Content\"";
-				DEVELOPMENT_TEAM = GTL2PGX2TX;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -373,14 +316,12 @@
 		};
 		EF917E5B2C35B3EB00494D65 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1106CA60BC9B047C63E8AE59 /* Pods-Whats REAL.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Whats REAL/Preview Content\"";
-				DEVELOPMENT_TEAM = GTL2PGX2TX;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -412,7 +353,7 @@
 				EF917E582C35B3EB00494D65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		EF917E592C35B3EB00494D65 /* Build configuration list for PBXNativeTarget "Whats REAL" */ = {
 			isa = XCConfigurationList;
@@ -421,9 +362,38 @@
 				EF917E5B2C35B3EB00494D65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EF1B11B32F35071C0037AC66 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EF1B11B42F35071C0037AC66 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF1B11B32F35071C0037AC66 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		EF1B11B62F35071C0037AC66 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF1B11B32F35071C0037AC66 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		EF1B11B82F35071C0037AC66 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF1B11B32F35071C0037AC66 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EF917E432C35B3E900494D65 /* Project object */;
 }

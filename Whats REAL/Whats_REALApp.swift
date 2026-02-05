@@ -6,18 +6,17 @@
 //
 
 import SwiftUI
-import Firebase
-import FirebaseCore
 
 @main
 struct Whats_REALApp: App {
     init() {
-        FirebaseApp.configure()
+//        FirebaseApp.configure()
     }
-    
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            RootView(router: router)
+//                .environment(\.di, di)
         }
     }
 }
