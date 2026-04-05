@@ -6,6 +6,10 @@ final class FirebaseAuthService: AuthServiceProtocol, @unchecked Sendable {
     var currentUserID: String? {
         Auth.auth().currentUser?.uid
     }
+
+    var currentUserEmail: String? {
+        Auth.auth().currentUser?.email
+    }
     
     var isAuthenticated: Bool {
         currentUserID != nil

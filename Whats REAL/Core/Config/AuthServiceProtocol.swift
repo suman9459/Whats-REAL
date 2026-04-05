@@ -2,7 +2,7 @@
 //  AuthServiceProtocol.swift
 //  Whats REAL
 //
-//  Created by Xcode Assistant on 2/5/26.
+//  Created by Sai Suman Pothedar on 7/3/24.
 //
 
 import Foundation
@@ -12,6 +12,9 @@ import Foundation
 public protocol AuthServiceProtocol: Sendable {
     /// Currently signed-in user identifier, if any.
     var currentUserID: String? { get }
+
+    /// Currently signed-in email, if available.
+    var currentUserEmail: String? { get }
 
     /// Returns whether a user is currently authenticated.
     var isAuthenticated: Bool { get }

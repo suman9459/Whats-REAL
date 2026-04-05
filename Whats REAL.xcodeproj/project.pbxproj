@@ -10,8 +10,10 @@
 		EF1B11B52F35071C0037AC66 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = EF1B11B42F35071C0037AC66 /* FirebaseAuth */; };
 		EF1B11B72F35071C0037AC66 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = EF1B11B62F35071C0037AC66 /* FirebaseCore */; };
 		EF1B11B92F35071C0037AC66 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = EF1B11B82F35071C0037AC66 /* FirebaseDatabase */; };
-		EF1B11CF2F350F960037AC66 /* FirebaseAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1B11CE2F350F960037AC66 /* FirebaseAuthService.swift */; };
-		EF1B11D12F35105B0037AC66 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1B11D02F35105B0037AC66 /* SignUpViewModel.swift */; };
+		EF1B11CF2F350F960037AC66 /* Services/FirebaseAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1B11CE2F350F960037AC66 /* Services/FirebaseAuthService.swift */; };
+		EF1B11D12F35105B0037AC66 /* Features/Auth/AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1B11D02F35105B0037AC66 /* Features/Auth/AuthViewModel.swift */; };
+		EF8439282F3587AF00437824 /* GooglePlaces in Frameworks */ = {isa = PBXBuildFile; productRef = EF8439272F3587AF00437824 /* GooglePlaces */; };
+		EF84392A2F3587AF00437824 /* GooglePlacesSwift in Frameworks */ = {isa = PBXBuildFile; productRef = EF8439292F3587AF00437824 /* GooglePlacesSwift */; };
 		EF917E4F2C35B3E900494D65 /* Whats_REALApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF917E4E2C35B3E900494D65 /* Whats_REALApp.swift */; };
 		EFB626F52F3512C6001B41EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFB626F22F3512C6001B41EC /* Assets.xcassets */; };
 		EFB626F62F3512C6001B41EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFB626F32F3512C6001B41EC /* Preview Assets.xcassets */; };
@@ -19,8 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EF1B11CE2F350F960037AC66 /* FirebaseAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthService.swift; sourceTree = "<group>"; };
-		EF1B11D02F35105B0037AC66 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		EF1B11CE2F350F960037AC66 /* Services/FirebaseAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/FirebaseAuthService.swift; sourceTree = "<group>"; };
+		EF1B11D02F35105B0037AC66 /* Features/Auth/AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Auth/AuthViewModel.swift; sourceTree = "<group>"; };
 		EF917E4B2C35B3E900494D65 /* Whats REAL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Whats REAL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF917E4E2C35B3E900494D65 /* Whats_REALApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whats_REALApp.swift; sourceTree = "<group>"; };
 		EFB626F22F3512C6001B41EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -31,6 +33,7 @@
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		EF1B11C22F350D1B0037AC66 /* Core */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Core; sourceTree = "<group>"; };
 		EF1B11C92F350E620037AC66 /* Views */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Views; sourceTree = "<group>"; };
+		EF84394E2F3A29CB00437824 /* Docs */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Docs; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +42,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF1B11B92F35071C0037AC66 /* FirebaseDatabase in Frameworks */,
+				EF84392A2F3587AF00437824 /* GooglePlacesSwift in Frameworks */,
+				EF8439282F3587AF00437824 /* GooglePlaces in Frameworks */,
 				EF1B11B72F35071C0037AC66 /* FirebaseCore in Frameworks */,
 				EF1B11B52F35071C0037AC66 /* FirebaseAuth in Frameworks */,
 			);
@@ -50,6 +55,7 @@
 		EF917E422C35B3E900494D65 = {
 			isa = PBXGroup;
 			children = (
+				EF84394E2F3A29CB00437824 /* Docs */,
 				EFC0993F2F0C591A00D59CBE /* GoogleService-Info.plist */,
 				EF917E4D2C35B3E900494D65 /* Whats REAL */,
 				EF917E4C2C35B3E900494D65 /* Products */,
@@ -70,8 +76,8 @@
 				EF917E4E2C35B3E900494D65 /* Whats_REALApp.swift */,
 				EF1B11C92F350E620037AC66 /* Views */,
 				EF1B11C22F350D1B0037AC66 /* Core */,
-				EF1B11CE2F350F960037AC66 /* FirebaseAuthService.swift */,
-				EF1B11D02F35105B0037AC66 /* SignUpViewModel.swift */,
+				EF1B11CE2F350F960037AC66 /* Services/FirebaseAuthService.swift */,
+				EF1B11D02F35105B0037AC66 /* Features/Auth/AuthViewModel.swift */,
 				EFB626F42F3512C6001B41EC /* Preview Content */,
 			);
 			path = "Whats REAL";
@@ -104,6 +110,7 @@
 			fileSystemSynchronizedGroups = (
 				EF1B11C22F350D1B0037AC66 /* Core */,
 				EF1B11C92F350E620037AC66 /* Views */,
+				EF84394E2F3A29CB00437824 /* Docs */,
 			);
 			name = "Whats REAL";
 			productName = "Whats REAL";
@@ -136,6 +143,7 @@
 			mainGroup = EF917E422C35B3E900494D65;
 			packageReferences = (
 				EF1B11B32F35071C0037AC66 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				EF8439262F3587AF00437824 /* XCRemoteSwiftPackageReference "ios-places-sdk" */,
 			);
 			productRefGroup = EF917E4C2C35B3E900494D65 /* Products */;
 			projectDirPath = "";
@@ -164,8 +172,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF1B11CF2F350F960037AC66 /* FirebaseAuthService.swift in Sources */,
-				EF1B11D12F35105B0037AC66 /* SignUpViewModel.swift in Sources */,
+				EF1B11CF2F350F960037AC66 /* Services/FirebaseAuthService.swift in Sources */,
+				EF1B11D12F35105B0037AC66 /* Features/Auth/AuthViewModel.swift in Sources */,
 				EF917E4F2C35B3E900494D65 /* Whats_REALApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,6 +320,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -341,6 +350,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -386,6 +396,14 @@
 				minimumVersion = 12.9.0;
 			};
 		};
+		EF8439262F3587AF00437824 /* XCRemoteSwiftPackageReference "ios-places-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-places-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.8.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -403,6 +421,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = EF1B11B32F35071C0037AC66 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseDatabase;
+		};
+		EF8439272F3587AF00437824 /* GooglePlaces */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF8439262F3587AF00437824 /* XCRemoteSwiftPackageReference "ios-places-sdk" */;
+			productName = GooglePlaces;
+		};
+		EF8439292F3587AF00437824 /* GooglePlacesSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF8439262F3587AF00437824 /* XCRemoteSwiftPackageReference "ios-places-sdk" */;
+			productName = GooglePlacesSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
