@@ -1,3 +1,10 @@
+//
+//  AppState.swift
+//  Whats REAL
+//
+//  Created by Sai Suman Pothedar on 2/5/26.
+//
+
 import Foundation
 
 @MainActor
@@ -34,7 +41,7 @@ final class AppState: ObservableObject {
         bootstrap(authService: authService)
     }
 
-    func bootstrap(authService: AuthServiceProtocol) {
+    private func bootstrap(authService: AuthServiceProtocol) {
         guard let userID = authService.currentUserID else {
             authState = .signedOut
             profileState = .unknown
@@ -50,7 +57,7 @@ final class AppState: ObservableObject {
         profileState = .incomplete
     }
 
-    func didAuthenticate(_ user: AppUser) {
+    func didAuthenticate(_ user: AppUser) async {
         authState = .signedIn(user)
         profileState = user.profileComplete ? .complete : .incomplete
     }

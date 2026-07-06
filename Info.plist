@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We use your location to show questions from nearby places you've visited</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Record 10-second video responses to questions</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Record audio for video responses</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Choose videos to attach to questions and responses</string>
+</dict>
+</plist>
